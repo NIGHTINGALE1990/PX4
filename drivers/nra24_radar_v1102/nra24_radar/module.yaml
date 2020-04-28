@@ -1,0 +1,7 @@
+module_name: NRA24 Rangefinder
+serial_config:
+    - command: nra24 start -d ${SERIAL_DEV}
+      port_config_param:
+        name: SENS_NRA24_CFG
+        group: Sensors
+
